@@ -1,5 +1,6 @@
-streamlit==1.32.0
-scikit-learn==1.4.0
-nltk==3.8.1
-numpy==1.26.4
-wordcloud==1.9.3
+streamlit
+scikit-learn
+nltk
+numpy
+pillow
+wordcloud
