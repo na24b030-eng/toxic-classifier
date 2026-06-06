@@ -4,8 +4,8 @@ An end-to-end NLP system that automatically classifies social media posts
 into **Hate Speech**, **Offensive Language**, or **Neither** —
 built to demonstrate automated content moderation using classical ML.
 
-🔗 **Live App:** [your-app-link-here]  
-📓 **Kaggle Notebook:** [your-notebook-link-here]
+🔗 **Live App:** [https://toxic-classifier-xyz.streamlit.app/]  
+📓 **Kaggle Notebook:** [https://www.kaggle.com/code/radiantbright/toxiscan-toxic-content-classifier]
 
 ---
 
