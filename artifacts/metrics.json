@@ -1,0 +1,77 @@
+{
+  "best_model": "Linear SVM (CalibratedClassifierCV)",
+  "models": {
+    "Naive Bayes": {
+      "accuracy": 0.863,
+      "weighted_f1": 0.838,
+      "per_class": {
+        "Hate Speech": {
+          "precision": 0.6216216216216216,
+          "recall": 0.08041958041958042,
+          "f1-score": 0.14241486068111456,
+          "support": 286.0
+        },
+        "Offensive": {
+          "precision": 0.8666974169741697,
+          "recall": 0.9791558103178739,
+          "f1-score": 0.9195008563738684,
+          "support": 3838.0
+        },
+        "Neither": {
+          "precision": 0.8507718696397941,
+          "recall": 0.5961538461538461,
+          "f1-score": 0.7010600706713781,
+          "support": 832.0
+        }
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 0.8535,
+      "weighted_f1": 0.8693,
+      "per_class": {
+        "Hate Speech": {
+          "precision": 0.3046471600688468,
+          "recall": 0.6188811188811189,
+          "f1-score": 0.4083044982698962,
+          "support": 286.0
+        },
+        "Offensive": {
+          "precision": 0.969499555818774,
+          "recall": 0.853048462741011,
+          "f1-score": 0.9075537075537076,
+          "support": 3838.0
+        },
+        "Neither": {
+          "precision": 0.7805611222444889,
+          "recall": 0.9362980769230769,
+          "f1-score": 0.8513661202185793,
+          "support": 832.0
+        }
+      }
+    },
+    "Linear SVM": {
+      "accuracy": 0.8991,
+      "weighted_f1": 0.8845,
+      "per_class": {
+        "Hate Speech": {
+          "precision": 0.5555555555555556,
+          "recall": 0.15734265734265734,
+          "f1-score": 0.2452316076294278,
+          "support": 286.0
+        },
+        "Offensive": {
+          "precision": 0.9136955987214163,
+          "recall": 0.9682126107347577,
+          "f1-score": 0.9401644528779254,
+          "support": 3838.0
+        },
+        "Neither": {
+          "precision": 0.8601485148514851,
+          "recall": 0.8353365384615384,
+          "f1-score": 0.8475609756097561,
+          "support": 832.0
+        }
+      }
+    }
+  }
+}
