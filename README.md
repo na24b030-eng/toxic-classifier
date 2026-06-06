@@ -35,21 +35,37 @@ Weighted F1 and per-class recall are the correct evaluation metrics.
 ## Pipeline
 
 Raw Tweets
+
 ↓
+
 Text Cleaning (lowercase, remove URLs/@mentions/RT/punctuation/numbers)
+
 ↓
+
 Stopword Removal + Porter Stemming
+
 ↓
+
 TF-IDF Vectorisation (unigrams + bigrams, 5,184 features)
+
 ↓
+
 Train/Test Split (80/20, stratified)
+
 ↓
+
 Model Training (Naive Bayes → Logistic Regression → Linear SVM)
+
 ↓
+
 Evaluation (Accuracy, Precision, Recall, F1, Confusion Matrix)
+
 ↓
+
 Explainability (LR Coefficients → top words per class)
+
 ↓
+
 Streamlit Deployment
 
 ---
